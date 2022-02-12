@@ -1,6 +1,6 @@
-@font-face { font-family: DDIN; src: url('/my-website/D-DIN.otf'); } 
-@font-face { font-family: DDIN-bold; font-weight: bold; src: url('/my-website/D-DIN-Bold.otf');}
-@font-face { font-family: DDIN-light; font-weight: lighter; src: url('/my-website/D-DINCondensed.otf');}
+@font-face { font-family: DDIN; src: url('https://www.darrenxu.org/D-DIN.otf'); } 
+@font-face { font-family: DDIN-bold; font-weight: bold; src: url('https://www.darrenxu.org/D-DIN-Bold.otf');}
+@font-face { font-family: DDIN-light; font-weight: lighter; src: url('https://www.darrenxu.org/D-DINCondensed.otf');}
 
 html { 
 
