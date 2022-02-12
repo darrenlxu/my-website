@@ -1,0 +1,127 @@
+@font-face { font-family: DDIN; src: url('/D-DIN.otf'); } 
+@font-face { font-family: DDIN-bold; font-weight: bold; src: url('/D-DIN-Bold.otf');}
+@font-face { font-family: DDIN-light; font-weight: lighter; src: url('/D-DINCondensed.otf');}
+
+html { 
+
+    background: url(/wallpaper.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.header {
+
+    font-size: 59px;
+    font-family: DDIN-bold;
+    color: white;
+    text-align: center;
+    margin-top: 15%;
+
+}
+
+h2 { 
+
+    font-size: 25px;
+    font-family: DDIN;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 45px;
+
+}
+
+
+.icons ul {
+
+    position: absolute;
+    top: 79%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+    display: flex;
+
+}
+
+.icons ul li {
+
+    list-style: none;
+    margin: 0 10px;
+
+}
+
+.icons ul li .fa {
+
+    color: #000000;
+    font-size: 28px;
+    line-height: 60px;
+    transition: .5s;
+
+}
+
+.icons ul li a {
+
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.icons ul li a:hover {
+
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+
+}
+
+.icons ul li:nth-child(1) a:hover {
+
+    background-color: rgb(255, 147, 6);
+
+}
+
+.icons ul li:nth-child(2) a:hover {
+
+    background-color: #0ef034;
+
+}
+
+.icons ul li:nth-child(3) a:hover {
+
+    background-color: #0077B5;
+
+}
+
+.icons ul li:nth-child(4) a:hover {
+
+    background-color: lightcoral;
+
+}
+
+.footer {
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    top: 88%;
+}
+
+p  {
+
+    color:gray;
+    font-family: DDIN-light;
+    font-weight: lighter;
+
+}
