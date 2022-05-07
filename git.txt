@@ -1,0 +1,14 @@
+git add <files>
+
+git commit -m "<comment>"
+
+git pull --rebase mywebsite main
+
+git push mywebsite main
+
+git reset --hard
+
+
+
+
+# https://i.ibb.co/4JKMNHP/wp2461881-mars-wallpapers-jpg-19-38-54-193.jpg
