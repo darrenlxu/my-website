@@ -18,9 +18,9 @@ html {
     font-family: DDIN-bold;
     color: white;
     text-align: center;
-    position: relative;
+    position: absolute;
     top: 50%;
-    margin-top: 15%;
+    /*margin-top: 15%;*/
 
 }
 
