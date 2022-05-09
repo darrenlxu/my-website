@@ -16,6 +16,10 @@ html {
 
     font-size: 59px;
     font-family: DDIN-bold;
+    color: white;
+    text-align: center;
+    position: relative;
+    margin-top: 15%;
 
 }
 
@@ -23,6 +27,10 @@ h2 {
 
     font-size: 25px;
     font-family: DDIN;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 45px;
 
 }
 
@@ -30,15 +38,12 @@ h2 {
 .icons ul {
 
     position: absolute;
-    top: 50%;
+    top: 79%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 0;
     margin: 0;
     display: flex;
-    color: white;
-    text-align: center;
-    position: relative;
 
 }
 
