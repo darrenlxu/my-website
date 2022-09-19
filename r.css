@@ -4,17 +4,57 @@
 
 html { 
 
-    background: black
+    background: black;
 
 }
 
 h1 {
 
     font-size: 59px;
-    font-family: DDIN;
+    font-family: DDIN-bold;
     color: white;
     text-align: center;
-    position: relative;
-    margin-top: 15%;
+    margin-top: 7.5%;
 
+}
+
+div.images {
+
+    width: 40%;
+    height: 40%;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1px;
+}
+
+p {
+
+    color: white;
+    font-family: DDIN-light;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 1px;
+    
+}
+
+h4 {
+
+    color: gray;
+    font-family: DDIN-light;
+    font-weight: lighter;
+    font-size: 19px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+h5 {
+
+    color: gray;
+    font-family: DDIN-light;
+    font-weight: lighter;
+    font-size: 19px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10%;
 }
