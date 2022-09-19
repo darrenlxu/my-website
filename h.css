@@ -126,3 +126,17 @@ p  {
     font-weight: lighter;
 
 }
+
+.footer1 {
+
+    position: relative;
+    left: 0;
+    bottom: 5px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-family: DDIN;
+    font-weight: lighter;
+    font-size: 15.5px;
+
+}
