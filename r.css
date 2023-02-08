@@ -8,56 +8,43 @@ html {
 
 }
 
+
 h1 {
 
-    font-size: 59px;
     font-family: DDIN-bold;
     color: white;
-    text-align: center;
-    margin-top: 7.5%;
+    font-size: 60px;
+    margin-bottom: 7%;
 
 }
 
-div.images {
+h2 {
 
-    width: 40%;
-    height: 40%;
-    background-color: black;
+    font-family: DDIN;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+
+}
+
+ul {
+
+    font-family: DDIN;
+    color: white;
+    font-size: 17px;
+    text-align: left;
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-top: 2.5%;
+    margin-bottom: 7.5%;
+}
+
+img {
+
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 1px;
-
-}
-
-p {
-
-    color: white;
-    font-family: DDIN-light;
-    font-size: 22px;
-    text-align: center;
-    margin-top: 1px;
-    
-}
-
-h4 {
-
-    color: gray;
-    font-family: DDIN-light;
-    font-weight: lighter;
-    font-size: 19px;
-    text-align: center;
-    margin-top: 10px;
-
-}
-
-h5 {
-
-    color: gray;
-    font-family: DDIN-light;
-    font-weight: lighter;
-    font-size: 19px;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10%;
+    width: 50%;
+    display: block;
+    margin-bottom: 2.5%;
 
 }
