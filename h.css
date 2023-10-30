@@ -2,6 +2,7 @@
 @font-face { font-family: DDIN-bold; font-weight: bold; src: url('https://www.darrenxu.org/fonts/D-DIN-Bold.otf');}
 @font-face { font-family: DDIN-light; font-weight: lighter; src: url('https://www.darrenxu.org/fonts/D-DINCondensed.otf');}
 
+/*
 html { 
 
     background: url(https://i.ibb.co/Dpsnh58/3253510.jpg) no-repeat center center fixed; 
@@ -10,12 +11,12 @@ html {
     -o-background-size: cover;
     background-size: cover;
 
-}
+}*/
 
 body {
     margin:0;
     padding:0;
-    background: url(https://i.ibb.co/Dpsnh58/3253510.jpg) no-repeat center center fixed; 
+    background: url(https://i.ibb.co/Dpsnh58/3253510.jpg); 
 }
 
 h2 {
