@@ -1,19 +1,19 @@
 @font-face {
-    font-family: DDIN;
-    src: url('https://www.darrenxu.org/fonts/D-DIN.otf');
-  }
+  font-family: DDIN;
+  src: url('https://www.darrenxu.org/fonts/D-DIN.otf');
+}
   
-  @font-face {
-    font-family: DDIN-bold;
-    font-weight: bold;
-    src: url('https://www.darrenxu.org/fonts/D-DIN-Bold.otf');
-  }
+@font-face {
+  font-family: DDIN-bold;
+  font-weight: bold;
+  src: url('https://www.darrenxu.org/fonts/D-DIN-Bold.otf');
+}
   
-  @font-face {
-    font-family: DDIN-light;
-    font-weight: lighter;
-    src: url('https://www.darrenxu.org/fonts/D-DINCondensed.otf');
-  }  
+@font-face {
+  font-family: DDIN-light;
+  font-weight: lighter;
+  src: url('https://www.darrenxu.org/fonts/D-DINCondensed.otf');
+}  
 
 /*
 html { 
