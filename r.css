@@ -1,52 +1,82 @@
-@font-face { font-family: DDIN; src: url('https://www.darrenxu.org/fonts/D-DIN.otf'); } 
-@font-face { font-family: DDIN-bold; font-weight: bold; src: url('https://www.darrenxu.org/fonts/D-DIN-Bold.otf');}
-@font-face { font-family: DDIN-light; font-weight: lighter; src: url('https://www.darrenxu.org/fonts/D-DINCondensed.otf');}
-
-html { 
-
-    background: black;
-
+@font-face {
+    font-family: DDIN;
+    src: url('https://www.darrenxu.org/fonts/D-DIN.otf');
 }
-
-
-h1 {
-
+    
+@font-face {
     font-family: DDIN-bold;
-    color: white;
-    font-size: 60px;
-    margin-bottom: 7%;
-    text-align: center;
-    margin-top: 7.5%;
-
+    font-weight: bold;
+    src: url('https://www.darrenxu.org/fonts/D-DIN-Bold.otf');
+}
+    
+@font-face {
+    font-family: DDIN-light;
+    font-weight: lighter;
+    src: url('https://www.darrenxu.org/fonts/D-DINCondensed.otf');
+}  
+  
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url(https://i.ibb.co/Dpsnh58/3253510.jpg) no-repeat center center fixed;
+    background-size: cover;
 }
 
 h2 {
+    position:absolute;
+    top:15%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    margin:0;
+    padding:0;
+    display:flex;
+    font-size: 45px;
+    font-family: DDIN-bold;
+    color: black;
+}
 
-    font-family: DDIN;
-    color: white;
-    font-size: 20.5px;
+div.places {
+    margin: 5px;
+    border: 1px solid lightgrey;
+    float: left;
+    width: 305px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+}
+  
+div.placescontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
     text-align: center;
-
-}
-
-ul {
-
     font-family: DDIN;
-    color: white;
-    font-size: 17.5px;
-    text-align: left;
-    margin-left: 9%;
-    margin-right: 9%;
-    margin-top: 2.5%;
-    margin-bottom: 7.5%;
+    text-decoration: none;
 }
 
-img {
+div.places:hover {
+    border: 1px solid darkgray;
+}
 
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    display: block;
-    margin-bottom: 2.5%;
+div.places img {
+    width: 100%;
+    height: auto;
+}
 
+p {
+    color: black;
+    text-decoration: none;
+}
+
+p1 {
+    color: black;
+    font-size: small;
 }
