@@ -24,8 +24,6 @@ body {
     height: 100vh;
     background-color: black;
     flex-direction: column;
-    padding-bottom: 55px;
-    box-sizing: border-box;
 }
 
 .heading-container {
@@ -42,6 +40,7 @@ body {
     align-items: center;
     gap: 20px; 
     font-family: 'DDIN';
+    margin-bottom: 35px;
 }
 
 .role-container {
