@@ -64,20 +64,19 @@ body {
 
 .text-box p {
     margin: 5px 0;
-    font-family: 'DDIN';
     color: white;
 }
 
 .role-title {
     font-weight: bold;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .company-name, .tenure {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .employment-type {
-    font-size: 14px;
+    font-size: 12px;
     font-style: italic;
 }
