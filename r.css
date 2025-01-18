@@ -16,67 +16,65 @@
 }  
   
 body {
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
-    background: url(https://i.ibb.co/Dpsnh58/3253510.jpg) no-repeat center center fixed;
-    background-size: cover;
+    background-color: black;
+    flex-direction: column;
 }
 
-h2 {
-    position:absolute;
-    top:15%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    margin:0;
-    padding:0;
-    display:flex;
-    font-size: 45px;
-    font-family: DDIN-bold;
-    color: black;
+.heading-container {
+    margin-bottom: 35px;
+    text-align: center;
+    color: white;
 }
 
-div.places {
-    margin: 5px;
-    border: 1px solid lightgrey;
-    float: left;
-    width: 305px;
-    height: 250px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-
-}
-  
-div.placescontent {
+.roles-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 100%;
-    text-align: center;
-    font-family: DDIN;
-    text-decoration: none;
+    gap: 20px; 
 }
 
-div.places:hover {
-    border: 1px solid darkgray;
+.role-container {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid grey;
+    width: 500px;
 }
 
-div.places img {
-    width: 100%;
-    height: auto;
+.logo img {
+    width: 150px;
+    height: 80px;
+    object-fit: contain;
+    border-radius: 8px;
 }
 
-p {
-    color: black;
-    text-decoration: none;
+.text-box {
+    margin-left: 20px;
 }
 
-p1 {
-    color: black;
-    font-size: small;
+.text-box p {
+    margin: 5px 0;
+    color: white;
+}
+
+.role-title {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.company-name, .tenure {
+    font-size: 11px;
+}
+
+.employment-type {
+    font-size: 11px;
+    font-style: italic;
 }
