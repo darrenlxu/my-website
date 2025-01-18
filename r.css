@@ -24,6 +24,8 @@ body {
     height: 100vh;
     background-color: black;
     flex-direction: column;
+    padding-bottom: 25px;
+    box-sizing: border-box;
 }
 
 .heading-container {
